@@ -1,0 +1,16 @@
+.legend-color{
+    color: rgb(202,164,98);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.btn-search{
+    color: white;
+    background: #35363A;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+    &:hover{
+        color:rgb(202,164,98);
+    }
+}

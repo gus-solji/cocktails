@@ -1,0 +1,21 @@
+.news-image{
+    height: 200px;
+    object-fit: cover;
+}
+
+.news-card{
+    height: 290px;
+    background-color: #35363A;
+
+    & a{
+        color: rgb(202,164,98);
+    }
+
+    & p{
+        color: rgb(202,164,98);
+    }
+
+    & small{
+        color: rgb(202,164,98);
+    }
+}

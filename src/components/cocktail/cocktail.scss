@@ -1,0 +1,78 @@
+.cocktail-item {
+    width: 300px;
+    height: 300px;
+    margin: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(202,164,98);
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+   
+    &:hover {
+      cursor: pointer;
+    
+      & .background-image {
+        transform: scale(1.1);
+        transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+        cursor:pointer;
+      }
+    
+      & .content-image {
+        opacity: 0.9;
+      }
+    }
+    
+    &.large{
+      height: 380px;
+    }
+  
+    &:first-child {
+      margin-right: 7.5px;
+    }
+  
+    &:last-child {
+      margin-left: 7.5px;
+    }
+
+    .background-image{
+      width: 100%;
+      height: 100%;
+
+      background-size: cover ;
+      background-position: center;
+    }
+  
+    .content-image {
+      height: 90px;
+      padding: 0 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 3px solid rgb(202,164,98);
+      background: black;
+      opacity: 0.7;
+      position: absolute;
+  
+     &.title {
+      font-weight: bold;
+      margin-bottom: 6px;
+      font-size: 22px;
+      color:rgb(202,164,98);
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+    }
+  
+    &.subtitle {
+      font-weight: lighter;
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif;
+      color:rgb(202,164,98);
+    }
+  }
+}  

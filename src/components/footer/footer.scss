@@ -1,0 +1,12 @@
+#sticky-footer {
+    flex-shrink: none;
+    background: #35363A;
+   
+
+    & small{
+        color: rgb(202,164,98);
+        font-family: 'Roboto', sans-serif;
+        // font-weight: bold;
+        font-size: 17px;
+    }
+}

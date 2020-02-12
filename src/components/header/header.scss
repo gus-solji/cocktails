@@ -1,0 +1,42 @@
+.welcome-text > h1 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  margin-top: 55px;
+  letter-spacing: 2px;
+}
+
+.welcome-legend > h1{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.size{
+  width: 299px;
+  height: 299px;
+}
+
+.position{
+  display: flex;
+  justify-content: center ;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.container.size{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center ;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row-position{
+  display: flex;
+  justify-content: space-between;
+}

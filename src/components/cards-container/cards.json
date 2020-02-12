@@ -1,0 +1,20 @@
+[
+    {
+      "id":1,
+      "title": "Boston Shaker",
+      "info": "At its simplest, a Boston Shaker is a two-piece cocktail shaker, consisting of a glass and a metal tin",
+	  "photo": "/assets/img/2.jpeg"
+    },
+    {
+      "id":2,
+      "title": "Cobbler Shaker",
+      "info": "Sometimes known simply as a 3 piece cocktail shaker, the cobbler is a good starting point for beginners.Consisting of a main container, which looks similar to a Boston tin, the Cobbler has a lid with a built-in strainer, and a cap to cover the strainer holes while shaking.These integrated straining holes remove the need for a cocktail strainer when pouring in to a glass.",
+	  "photo": "/assets/img/3.jpg"
+    },
+    {
+      "id":3,
+	  "title": "French Shaker",
+      "info": "Also known as a French shaker, the Parisian Shaker is a 2-piece cocktail shaker that sits somewhere between a Cobbler and a Boston. The Parisian shaker inherits the shape of the Cobbler shaker, but does not have a built-in strainer",
+      "photo": "/assets/img/6.jpg"
+    }
+  ]
